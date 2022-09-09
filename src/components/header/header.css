@@ -1,0 +1,41 @@
+.header {
+  background-image: url("../../assets/PLANTILLA.jpeg");
+  background-color: black;
+  background-position: center;
+  height: 50vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerCarts {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 270px;
+  background-color: #19af5e;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.cartImage {
+  width: 250px;
+  height: 150px;
+}
+
+.see-more {
+  cursor: pointer;
+}
